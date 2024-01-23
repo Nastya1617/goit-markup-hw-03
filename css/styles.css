@@ -32,9 +32,8 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1158px;
+  padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,6 +44,8 @@ ul {
 }
 .logo-nav {
   padding: 25px 0px 25px 0px;
+  display: flex;
+   align-items: center;/
 }
 .logo {
   color: #4d5ae5;
@@ -54,13 +55,14 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 93px;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
 .menu-nav {
+  display: flex;
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
@@ -71,6 +73,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+   padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
