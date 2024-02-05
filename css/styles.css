@@ -41,12 +41,12 @@ ul {
   display: flex;
   padding-left: 156px;
   padding-right: 156px;
- padding: 0 15px;
+  padding: 0 15px;
 }
 .logo-nav {
   padding: 25px 0px 25px 0px;
   display: flex;
-   align-items: center;/
+  align-items: center;
 }
 .logo {
   color: #4d5ae5;
@@ -74,7 +74,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-   padding: 24px 0;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -133,13 +133,15 @@ ul {
   border: none;
   border-radius: 4px;
   display: block;
-  min-width: 169px
+  min-width: 169px;
 }
 .button:hover,
 .button:focus {
   background: #404bbf;
 }
-.features{ padding: 120px 0}
+.features {
+  padding: 120px 0;
+}
 .features-container {
   padding: 0px 156px 0px 156px;
 }
@@ -152,7 +154,9 @@ ul {
 .features-container li:last-child {
   margin-right: 0px;
 }
-.listt-features{width: calc((100% - 72px) / 4);}
+.listt-features {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   visibility: hidden;
 }
@@ -172,7 +176,7 @@ ul {
 }
 .team {
   background-color: #f4f4fd;
-   padding: 120px 0;
+  padding: 120px 0;
 }
 .team-container {
   padding: 0px 156px 0px 156px;
@@ -194,20 +198,22 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
 }
 .img-team {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
-.team-card{padding: 32px 0}
+.team-card {
+  padding: 32px 0;
+}
 .title-team-card {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
- margin-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
 }
 .text-team-card {
@@ -217,7 +223,9 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.portfolio {padding: 120px 0 120px 0;}
+.portfolio {
+  padding: 120px 0 120px 0;
+}
 .portfolio-container {
   padding: 0px 156px 0px 156px;
 }
@@ -242,8 +250,8 @@ ul {
 }
 .portfolio-project {
   padding: 32px 16px;
-border: 1px solid #e7e9fc;
-border-top: none; 
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-project {
   color: #2e2f42;
@@ -264,7 +272,7 @@ border-top: none;
 /**---------Footer----------*/
 .footer {
   background: #2e2f42;
-   padding: 100px 0
+  padding: 100px 0;
 }
 .footer-container {
   padding: 0px 156px 0px 156px;
@@ -277,8 +285,8 @@ border-top: none;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-   display: inline-block;
-   margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer {
   color: #f4f4fd;
